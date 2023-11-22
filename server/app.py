@@ -3,7 +3,6 @@ from langchain.chat_models import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
 from openai import OpenAI
 from fastapi import FastAPI, File, UploadFile
-from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from io import BytesIO
 
